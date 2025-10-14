@@ -1,0 +1,49 @@
+body {
+  font:arial;
+  margin: 0;
+  background: url('menu bg.jpg');
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+header {
+  background-color: palevioletred;
+  padding: 10px ;
+}
+
+.navbar {
+  display: flex;
+  justify-content: right;
+  gap: 30px;
+}
+
+.navbar li a {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  color: pink;
+}
+
+.contact-section {
+  padding: 80px 20px;
+  background-color: black;
+  margin: 80px;
+  border-radius: 20px;
+  
+}
+
+.contact-info p {
+  font-size: 20px;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  padding: 15px;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
